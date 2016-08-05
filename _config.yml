@@ -16,6 +16,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://developingwoot.github.io" # the base hostname & protocol for your site
 twitter_username: developingwoot
 github_username:  developingwoot
+timezone: America/New_York
 
 # Build settings
 markdown: kramdown
