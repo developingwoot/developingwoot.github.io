@@ -2,7 +2,7 @@
 layout: post
 title:  "Configure Jekyll"
 date:   2016-08-05 07:00:00 -0400
-categories: jekyll install tutorial
+categories: jekyll tutorial config
 ---
 
 Below is the beginning of my configuration file after editing it.
