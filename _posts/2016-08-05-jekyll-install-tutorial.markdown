@@ -4,7 +4,7 @@ title:  "Jekyll Install Tutorial"
 date:   2016-08-05 06:00:08 -0400
 categories: jekyll tutorial install
 ---
-There are a ton of much better posts on the internet about how to create and setup a Jekyll blog, but this post exists because I wanted to chronicle my journey.
+There are a ton of much better posts on the internet about how to create and setup a Jekyll blog, but this post exists because I wanted to chronicle my journey to setup a free blog that I can truly call mine.
 
 First, I setup a github repo.  If you want to know how do to this check out their [GitHub Pages][github-pages]
 
