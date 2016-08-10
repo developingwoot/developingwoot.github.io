@@ -37,6 +37,16 @@ main {
 
 }
 
+.icon {
+  height:30px;
+  width:30px;
+
+  svg{
+      fill: $primary-color;
+  }
+
+}
+
 footer {
   padding: 20px;
   background-color: black;
