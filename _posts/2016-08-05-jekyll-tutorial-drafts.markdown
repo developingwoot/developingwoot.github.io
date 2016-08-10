@@ -25,7 +25,7 @@ $ bundle exec jekyll serve --drafts
 
 Now your site should run serving posts from the _drafts folder as well as the _posts folder.  The files in drafts will have a post date that matches there last modified date so you should see them in the list of posts accordingly.
 
-# What do I do when I want to post them? #
+### What do I do when I want to post them? 
 
 When your ready to make this post live all you need to do is rename it will a date, add a date to the Front Matter, and move it to your posts directory.
 
