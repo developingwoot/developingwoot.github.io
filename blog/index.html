@@ -1,20 +1,18 @@
 ---
 layout: default
 ---
-
-  <h1 class="page-heading">Blog</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <div>
+  <div style="margin-top:15px;">
+  {% for post in site.posts %}
+      <div class="medium-4 columns">
+        <div class="card">
+          <span class="title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></span>
+          <div class="content">
             {{ post.excerpt }}
+          </div>
+          <div class="action">
+            <a href="{{ post.url | prepend: site.baseurl }}">More...</a>
+          </div>
         </div>
-      </li>
-    {% endfor %}
-  </ul>
+      </div>
+  {% endfor %}
+</div>
