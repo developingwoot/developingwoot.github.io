@@ -1,10 +1,14 @@
 <footer class="site-footer">
-
-  <h4 class="footer-heading">{{ site.title }}</h4>
-  <p>{{ site.description }}</p>
-  {% include icon-github.html %}
-  {% include icon-twitter.html %}
-
+	<div class="row">
+		  <div class="medium-6 columns">
+		  	&copy {{ site.time | date: '%Y' }} - Developing Woot
+		  </div>
+		  <div class="medium-4 columns">
+		  {% include icon-github.html %}
+		  {% include icon-twitter.html %}
+		  {% include icon-rss.html %}
+		</div>
+	</div>
   <script src="/js/foundation.min.js"></script>
   <script>
     $(document).foundation();

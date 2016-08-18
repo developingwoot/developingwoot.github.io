@@ -13,9 +13,9 @@ gems:
 title: Developing Woot
 email: developingwoot@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I love tacos and writing code.  I want to start a blog that I change
-  truly say is mine and keep it as free as possible.  This blog is 
-  my story to blog free about code and tacos.
+  I love tacos and writing code.  I wanted to start a blog that I could
+  truly say is mine, while keeping it as free as possible.  This blog is 
+  my story to blog freely about code and tacos.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://developingwoot.github.io" # the base hostname & protocol for your site
 twitter_username: developingwoot
