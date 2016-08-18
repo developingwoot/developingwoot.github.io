@@ -9,6 +9,7 @@
 gems:
   - jekyll-sitemap
   - jekyll-mentions
+  - jekyll-seo-tag
 
 # Site settings
 title: Developing Woot
