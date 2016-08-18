@@ -12,4 +12,4 @@ I am a software developer that enjoys blogging for fun.  It's hard to justify sp
 
 I also love tacos not just eating them, but making them.
 
-This blog is dedicated to finding ways to blog for free, but not just blogging.  How can we build an audience through SEO, and well thoughout design technics without spending a dime.
+This blog is dedicated to finding ways to blog for free, but not just blogging.  How can we build an audience through SEO, and well thought out design techniques without spending a dime.

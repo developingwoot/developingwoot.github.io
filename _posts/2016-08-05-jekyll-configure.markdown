@@ -5,7 +5,7 @@ date:   2016-08-05 07:00:00 -0400
 categories: jekyll tutorial config
 ---
 
-Your _config.yml is the first place you should start when configuring your site.  This is where basic site configration information is stored.  This file can get rather complicated but let's first take a look at the basics.
+Your _config.yml is the first place you should start when configuring your site.  This is where basic site configuration information is stored.  This file can get rather complicated but let's first take a look at the basics.
 
 Below is the beginning of my configuration file after editing it.
 
@@ -36,7 +36,7 @@ markdown: kramdown
 
 {% endhighlight %}
 
-These options are pretty self explanitory.
+These options are pretty self explanatory.
 
 The way you edit it is by typing a value next to the key.  The key is 'title:' and the value would be Developing Woot.
 
