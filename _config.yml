@@ -8,6 +8,7 @@
 #gems
 gems:
   - jekyll-sitemap
+  - jekyll-mentions
 
 # Site settings
 title: Developing Woot
