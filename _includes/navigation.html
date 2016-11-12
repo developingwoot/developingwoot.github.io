@@ -1,0 +1,25 @@
+<div id="mySidenav" class="sidenav">
+    <ul>
+        <li><a href="/">{% include icon-developingwoot.html %}</a></li>
+        <li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
+        {% for my_page in site.pages %}
+            {% if my_page.title %}
+                <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    <div class="sidenav-footer">
+        {% include footer.html %}
+    </div>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span class="button" onclick="openNav()">Navigation</span>
+
+<script>
+    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementByTagName("main").style.marginLeft = "250px";
+    }
+</script>

@@ -4,13 +4,15 @@
 
   <body>
 
-    {% include header.html %}
+    {% include navigation.html %}
 
     <main>
+      <div class="blog-roll">
         {{ content }}
+      </div>
     </main>
 
-    {% include footer.html %}
+
     {% if jekyll.environment == 'production' %}
       {% include analytics.html %}
     {% endif %}

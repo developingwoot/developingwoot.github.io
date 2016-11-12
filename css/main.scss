@@ -25,14 +25,80 @@ header {
 
   }
 }
+     /* The side navigation menu */
+#mySidenav {
 
-main {
-  @include grid-row;
-  article {
-    header, div:first { 
-      @include grid-column(12);
+      height: 100%; /* 100% Full-height */
+      width: 250px; /* 0 width - change this with JavaScript */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Stay on top */
+      top: 0;
+      left: 0;
+      background-color: #111; /* Black*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 60px; /* Place content 60px from the top */
+      transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+      ul {
+        li {
+          a {
+              padding: 8px 8px 8px 32px;
+              text-decoration: none;
+              font-size: 25px;
+              color: #818181;
+              display: block;
+              transition: 0.3s
+          }
+
+          a:hover, .offcanvas a:focus{
+              color: #f1f1f1;
+          }
+        }
+      }
+
+
+      .closebtn {
+          position: absolute;
+          top: 0;
+          right: 25px;
+          font-size: 36px;
+          margin-left: 50px;
+      }
+    
+
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+    }
+
+  .sidenav-footer {
+    bottom: 0;
+    position: absolute;
+    width:100%;
+    a {
+      padding:15px;
+      width:50px;
+      display:initial;
     }
   }
+}
+
+
+main {
+  padding : 20px;
+  transition: margin-left .5s;
+  margin-left: 250px; 
+
+  .blog-roll {
+    @include grid-row;
+    article {
+      header, div:first { 
+        @include grid-column(12);
+      }
+    }
+  }
+
 
   .card{
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -87,12 +153,6 @@ main {
     }
   }
 
-
-  padding : {
-    left: 20px;
-    right: 20px;
-  }
-
   ul {
 		list-style-type: none;
   }
@@ -117,20 +177,23 @@ main {
 
 .icon {
   svg{
-    fill: $primary-color;
+    fill: black;
     height:30px;
     width:30px;
     border-radius: 50%;
-    background-color: $success-color;
+    background-color: lightgrey;
   }
 
 }
 
 .icon-lg {
     svg{
-    fill: $primary-color;
-    height:50px;
-    width:50px;
+    fill: black;
+    height:100px;
+    width:100px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    align-content: "center";
   }
 }
 
