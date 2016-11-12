@@ -2,6 +2,7 @@
 layout: post
 title:  "Configure Jekyll"
 date:   2016-08-05 07:00:00 -0400
+comments: true
 categories: jekyll tutorial config
 ---
 
