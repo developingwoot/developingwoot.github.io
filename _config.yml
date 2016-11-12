@@ -20,7 +20,6 @@ url: "http://developingwoot.github.io" # the base hostname & protocol for your s
 twitter_username: developingwoot
 github_username:  developingwoot
 timezone: America/New_York
-repository: "https://github.com/developingwoot"
 disqus_shortname: "https-developingwoot-github-io"
 google_analytics: UA-82756077-1
 

@@ -11,5 +11,21 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+  <aside>
+    <div class="share-container">
+      <div class="share-title">Share</div>
+      <div class="share-buttons">
+      <a href="http://twitter.com/share?text={{page.title}}&amp;url={{site.url}}{{ page.url }}&amp;hashtags=web,dev,blog,soudev&amp;via=nandomoreirame"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <i class="icon icon-twitter">{% include icon-twitter.svg %}</i>
+      </a>
+
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <i class="icon icon-facebook">{% include icon-facebook.svg %}</i>
+      </a>
+      </div>
+    </div>
+ </aside>
  {% include comments.html %}
 </article>

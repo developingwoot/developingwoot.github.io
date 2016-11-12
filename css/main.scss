@@ -92,9 +92,37 @@ main {
 
   .blog-roll {
     @include grid-row;
+    @include foundation-flex-classes;
+    @include foundation-flex-grid;
     article {
       header, div:first { 
         @include grid-column(12);
+      }
+
+      aside {
+        .share-container
+        {
+          margin: auto;
+          width: 25%;
+          border-radius: 50px;
+          background-color: darkgrey;
+
+          .share-title {
+            margin: auto;
+            width: 100%;
+            color: white;
+            text-align: center;
+          }
+
+          .share-buttons {
+            margin: auto;
+            width: 100%;
+            text-align: center;
+            i {
+              padding: 10px;
+            }
+          }
+        }
       }
     }
   }
@@ -177,7 +205,7 @@ main {
 
 .icon {
   svg{
-    fill: black;
+    fill: #828282;
     height:30px;
     width:30px;
     border-radius: 50%;
@@ -208,6 +236,21 @@ footer {
       border-radius: 50%;
       width: 10%;
       height: 10%;
+  }
+}
+
+.icon-twitter {
+  svg {
+    fill:#00aced;
+    background-color: white;
+  }
+}
+
+.icon-facebook
+{
+  svg {
+    background-color:#3b5998;
+    fill: white;
   }
 }
 
