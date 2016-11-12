@@ -23,6 +23,7 @@ timezone: America/New_York
 repo: "https://github.com/developingwoot"
 disqus_shortname: "https-developingwoot-github-io"
 google_analytics: UA-82756077-1
+username: developingwoot
 
 # Build settings
 markdown: kramdown
