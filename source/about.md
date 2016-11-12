@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I am an amateur software developer that enjoys blogging for fun. It's hard to justify spending a ton of money for a hobby blog.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I also love tacos not just eating them, but making them.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I wanted to start a blog that I could truly say is mine, while keeping it as free as possible. This blog is my story to blog freely about code and tacos.
