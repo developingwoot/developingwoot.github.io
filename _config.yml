@@ -14,7 +14,7 @@ sass:
 
 # Site settings
 title: developing woot
-description: "A free Jekyll theme"
+description: "A simple Jekyll blog"
 email: developingwoot@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://yourdomain.com"
