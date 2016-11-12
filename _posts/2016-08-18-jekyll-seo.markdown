@@ -2,6 +2,7 @@
 layout: post
 title:  "Jekyll SEO - Draw Readers"
 date: 2016-08-18 08:00
+comments: true
 categories: jekyll seo tutorial
 ---
 

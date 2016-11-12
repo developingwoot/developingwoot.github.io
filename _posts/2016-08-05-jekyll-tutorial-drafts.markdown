@@ -2,6 +2,7 @@
 layout: post
 title:  "Jekyll Drafts - Write, review, rewrite, post"
 date: 2016-08-05 08:00
+comments: true
 categories: jekyll tutorial drafts
 ---
 

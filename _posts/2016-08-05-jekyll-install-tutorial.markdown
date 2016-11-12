@@ -2,6 +2,7 @@
 layout: post
 title:  "Jekyll Install Tutorial"
 date:   2016-08-05 06:00:08 -0400
+comments: true
 categories: jekyll tutorial install
 ---
 There are a ton of much better posts on the Internet about how to create and setup a Jekyll blog, but this post exists because I wanted to chronicle my journey to setup a free blog that I can truly call mine.
