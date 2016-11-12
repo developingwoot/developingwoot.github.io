@@ -1,0 +1,36 @@
+<header>
+  <div data-sticky-container>
+    <div class="sticky" id="main-header-menu" data-margin-top="0" style="width:100%;" data-sticky>
+      <nav class="top-bar clearfix" data-magellan>
+        <div>
+          <div class="top-bar-title">
+            <strong>
+            {% include icon-developingwoot.html %}
+            <a href="/">
+              {{ site.title }}</a></strong>
+          </div>
+          <div>
+            <div id="responsive-menu">
+              <div>
+                <ul class="dropdown menu" data-dropdown-menu>
+                  <li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
+                  {% for my_page in site.pages %}
+                    {% if my_page.title %}
+                    <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="float-right">
+        <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle></button>
+        </span>
+      </div>
+      </nav>
+    </div>
+  </div>
+</header>
