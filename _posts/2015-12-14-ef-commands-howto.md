@@ -6,8 +6,6 @@ comments: true
 categories: entityframework tutorial
 ---
 
-# Entity Framework Commands Overview
----
 Code First development using Entity Framework is really helpful.  It allows you to keep your database schema in code.  When you code is controlled by a good VCS like git you have a powerful configuration for development.
 
 However code first development using EF is not without it's pitfalls, and if you are learning it in the school of hard knocks well those pitfalls can be rather painful.  
